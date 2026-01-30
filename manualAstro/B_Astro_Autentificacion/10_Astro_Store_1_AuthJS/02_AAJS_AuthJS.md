@@ -2,6 +2,10 @@
 (authJS)[https://authjs.dev/guides]
 (githubAuthJSAstro)[https://github.com/eapepe0/Astro-AuthJS-AstroDB-Store]
 
+# AUTH JS
+
+## authjs config
+
 0. install auth-astro, T: npx astro add auth-astro, npm i auth-astro@^4.2.0 @auth/core@^0.37.4
 1. creamos archivo `.env` y los nombramos en `.gitignore` ademas creamos `.env.template`:
 
@@ -29,3 +33,5 @@ export default defineConfig({
   ],
 });
 ```
+
+## authjs credentials providers
