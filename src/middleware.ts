@@ -12,6 +12,7 @@ export const onRequest = defineMiddleware(
     // TODO:
     locals.isLoggedIn = isLoggedIn;
     locals.user = null;
+    locals.isAdmin = false;
 
     if (user) {
       // TODO:
@@ -19,6 +20,7 @@ export const onRequest = defineMiddleware(
         email: user.email!,
         name: user.name!,
       };
+      locals.isAdmin = user.role === "admin";
     }
 
     // TODO: Eventualmente tenemos que controlar el acceso por roles
