@@ -63,6 +63,15 @@
 (estiloXML)[https://github.com/genmon/aboutfeeds/blob/main/tools/pretty-feed-v3.xsl]
 (addStyles)[https://docs.astro.build/en/recipes/rss/#adding-a-stylesheet]
 
+### astroDB
+
+(guiaAstroDB)[https://docs.astro.build/en/guides/astro-db/]
+(ejemploAstroDB)[https://dotmd.io/blog/explorando-astrodb/]
+(enumAstroDB)[https://docs.astro.build/en/guides/integrations-guide/db/#table-configuration-reference]
+(enumIssuesAstroDB)[https://github.com/withastro/roadmap/discussions/980]
+(enumSuportAstroDB)[https://astro.build/blog/astro-5130/#enum-support-in-astro-db-tables]
+(bcryptjs)[https://www.npmjs.com/package/bcryptjs]
+
 ## plantillas
 
 (basica)[https://github.com/hkbertoson/github-pages]
@@ -86,6 +95,7 @@
 (tailwindAnimation)[https://www.npmjs.com/package/tailwind-animate]
 (escogerFuente)[https://fontpair.co/]
 (sitch)[https://stitch.withgoogle.com/]
+(componentsTailwindShadcnMotion)[https://github.com/kokonut-labs/kokonutui]
 
 ### externas templates UI
 

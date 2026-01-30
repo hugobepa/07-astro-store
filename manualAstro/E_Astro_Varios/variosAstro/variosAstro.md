@@ -16,6 +16,7 @@ npm run preview ( ver como quedaria en produccion (haber creado antes la `/dist`
 2. si ponemos en archivo ` .flex.flex-row` + tab . Se crea div con esas classes de tailwind
 3. github repositorio cambiar ` .com  x  .dev` abrir VS nube
 4. `aget` apiREST astro
+5. saber si paquete esta instalado,T: npm list uuid
 
 # VOLVER PAGINA ANTERIOR
 
