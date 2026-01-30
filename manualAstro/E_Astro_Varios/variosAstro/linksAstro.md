@@ -159,7 +159,8 @@
 (aprenderLenguajeRapido)[https://learnxinyminutes.com/]
 (cursosCienciasdatos - phyton,sql)[https://www.kaggle.com/learn]
 (mejorFrameworksJS2025)[https://risingstars.js.org/2025/es]
-
+(crearVPNpropio)[https://www.israelcasado.net/createVps/]
+(alternativasVercel)[https://punits.dev/blog/vercel-hosting-when-to-use-and-alternatives/]
 (nextCommonErrors)[https://graphite.com][https://www.youtube.com/watch?v=UFQFvaBtQg0]
 
 ## Recursos Esenciales para Desarrolladores 🚀
