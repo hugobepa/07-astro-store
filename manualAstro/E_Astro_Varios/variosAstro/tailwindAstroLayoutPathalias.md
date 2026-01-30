@@ -135,6 +135,7 @@ import MainLayout from '../layouts/MainLayout.astro';
  "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
       "@interfaces/*": ["./src/interfaces/*"],
       "@layouts/*": ["./src/layouts/*"],
@@ -151,6 +152,20 @@ import MainLayout from '../layouts/MainLayout.astro';
 import **** from '@components/pokemon/PokemonCard.astro'
 import Button from '@interfaces/controls/Button.astro';
 import logoUrl from '@layouts/logo.png?url';
+```
+
+## output: "server",
+
+add `output: "server",` en `astro.config.mjs`:
+
+```
+export default defineConfig({
+  vite: {
+    plugins: [tailwindcss()],
+  },
+  output: "server",
+  adapter: netlify(),
+});
 ```
 
 ### deploy
