@@ -7,6 +7,8 @@ import netlify from "@astrojs/netlify";
 
 import db from "@astrojs/db";
 
+import auth from "auth-astro";
+
 // https://astro.build/config
 export default defineConfig({
   vite: {
@@ -15,5 +17,5 @@ export default defineConfig({
 
   output: "server",
   adapter: netlify(),
-  integrations: [db()],
+  integrations: [db(), auth()],
 });

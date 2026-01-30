@@ -72,6 +72,14 @@
 (enumSuportAstroDB)[https://astro.build/blog/astro-5130/#enum-support-in-astro-db-tables]
 (bcryptjs)[https://www.npmjs.com/package/bcryptjs]
 
+### authjs
+
+(authJSAstro)[https://docs.astro.build/en/guides/authentication/#authjs]
+(githubAuthJSAstro)[https://github.com/eapepe0/Astro-AuthJS-AstroDB-Store]
+(authJS)[https://authjs.dev/guides]
+(betterAuth)[https://www.better-auth.com/docs/introduction]
+(astroBetterAuth)[https://docs.astro.build/en/guides/authentication/#better-auth]
+
 ## plantillas
 
 (basica)[https://github.com/hkbertoson/github-pages]
