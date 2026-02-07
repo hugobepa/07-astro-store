@@ -1,167 +1,213 @@
 # LINKS
 
-## documentacion oficial
+## Documentación oficial
 
-(cursosOficiales)[https://docs.astro.build/es/astro-courses/]
-(paginaIncialDocs)[https://docs.astro.build/es/getting-started/]
-(estructura)[https://docs.astro.build/es/basics/project-structure/]
-(comandos)[https://docs.astro.build/es/reference/cli-reference/#astro-preferences]
-(layouts)[https://docs.astro.build/es/basics/layouts/]
-(estilos)[https://docs.astro.build/es/guides/styling/]
-(view-transitions)[https://docs.astro.build/es/guides/view-transitions/]
-(paginas-estaticas)[https://docs.astro.build/en/reference/routing-reference/#paginate]
-(pathAlias)[https://docs.astro.build/en/guides/imports/#aliases]
-(cicloTrabaosViewTransitionJS)[https://docs.astro.build/en/guides/view-transitions/#lifecycle-events]
-(islasFrameworksAdapter)[https://docs.astro.build/en/guides/integrations-guide/]
-(directivasTemplate)[https://docs.astro.build/en/reference/directives-reference/#client-directives]
-(#transitionpersist-props)[https://docs.astro.build/en/guides/view-transitions/#transitionpersist-props]
-(importmetaglob)[https://docs.astro.build/en/guides/imports/#importmetaglob/]
-(cookiesAstro)[https://docs.astro.build/es/reference/api-reference/#cookies]
-(astroActions)[https://docs.astro.build/en/guides/actions/]
-(middlewareDefinite)[https://docs.astro.build/en/guides/middleware/#middleware-types]
-(authAstro)[https://docs.astro.build/en/guides/authentication/]
-(env)[https://docs.astro.build/es/guides/environment-variables/]
+| Recurso                             | Breve descripción                             | Enlace                                                                                                                                                         |
+| :---------------------------------- | :-------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Cursos oficiales                    | Cursos y materiales oficiales de Astro        | [https://docs.astro.build/es/astro-courses/](https://docs.astro.build/es/astro-courses/)                                                                       |
+| Inicio docs                         | Página de inicio de la documentación          | [https://docs.astro.build/es/getting-started/](https://docs.astro.build/es/getting-started/)                                                                   |
+| Estructura del proyecto             | Guía de project structure                     | [https://docs.astro.build/es/basics/project-structure/](https://docs.astro.build/es/basics/project-structure/)                                                 |
+| Comandos CLI                        | Referencia del CLI de Astro                   | [https://docs.astro.build/es/reference/cli-reference/#astro-preferences](https://docs.astro.build/es/reference/cli-reference/#astro-preferences)               |
+| Layouts                             | Uso de layouts en Astro                       | [https://docs.astro.build/es/basics/layouts/](https://docs.astro.build/es/basics/layouts/)                                                                     |
+| Estilos                             | Guía de estilos y CSS                         | [https://docs.astro.build/es/guides/styling/](https://docs.astro.build/es/guides/styling/)                                                                     |
+| View Transitions                    | Guía sobre view transitions                   | [https://docs.astro.build/es/guides/view-transitions/](https://docs.astro.build/es/guides/view-transitions/)                                                   |
+| Paginate / Páginas estáticas        | Paginación en rutas estáticas                 | [https://docs.astro.build/en/reference/routing-reference/#paginate](https://docs.astro.build/en/reference/routing-reference/#paginate)                         |
+| Path Alias                          | Aliases para imports                          | [https://docs.astro.build/en/guides/imports/#aliases](https://docs.astro.build/en/guides/imports/#aliases)                                                     |
+| Lifecycle events (view transitions) | Eventos del ciclo de vida en view transitions | [https://docs.astro.build/en/guides/view-transitions/#lifecycle-events](https://docs.astro.build/en/guides/view-transitions/#lifecycle-events)                 |
+| Integrations / Adapters             | Guía de integraciones y adapters              | [https://docs.astro.build/en/guides/integrations-guide/](https://docs.astro.build/en/guides/integrations-guide/)                                               |
+| Client directives                   | Directivas cliente (client:load, etc.)        | [https://docs.astro.build/en/reference/directives-reference/#client-directives](https://docs.astro.build/en/reference/directives-reference/#client-directives) |
+| Transition persist props            | Propiedades de `transitionpersist`            | [https://docs.astro.build/en/guides/view-transitions/#transitionpersist-props](https://docs.astro.build/en/guides/view-transitions/#transitionpersist-props)   |
+| import.meta.glob                    | Patrón para importar múltiples archivos       | [https://docs.astro.build/en/guides/imports/#importmetaglob/](https://docs.astro.build/en/guides/imports/#importmetaglob/)                                     |
+| Cookies API                         | Referencia de cookies en Astro                | [https://docs.astro.build/es/reference/api-reference/#cookies](https://docs.astro.build/es/reference/api-reference/#cookies)                                   |
+| Actions                             | Guía sobre server actions en Astro            | [https://docs.astro.build/en/guides/actions/](https://docs.astro.build/en/guides/actions/)                                                                     |
+| Middleware types                    | Tipos y uso de middleware                     | [https://docs.astro.build/en/guides/middleware/#middleware-types](https://docs.astro.build/en/guides/middleware/#middleware-types)                             |
+| Auth guide                          | Guía de autenticación en Astro                | [https://docs.astro.build/en/guides/authentication/](https://docs.astro.build/en/guides/authentication/)                                                       |
+| Environment vars                    | Uso de variables de entorno                   | [https://docs.astro.build/es/guides/environment-variables/](https://docs.astro.build/es/guides/environment-variables/)                                         |
 
-### env.d.ts
+### env.d.ts / TypeScript
 
-(importsTS)[https://docs.astro.build/en/guides/typescript/#using-imports]
-(cambiosAstro5)[https://docs.astro.build/en/guides/upgrade-to/v5/#changed-typescript-configuration]
-(usarVariblesEntornoTS)[https://docs.astro.build/en/guides/environment-variables/#intellisense-for-typescript]
+| Recurso                  | Descripción                                     | Enlace                                                                                                                                                                         |
+| :----------------------- | :---------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Using imports (TS)       | Cómo usar imports en TypeScript con Astro       | [https://docs.astro.build/en/guides/typescript/#using-imports](https://docs.astro.build/en/guides/typescript/#using-imports)                                                   |
+| Cambio en Astro v5 (TS)  | Cambios en config TypeScript al actualizar a v5 | [https://docs.astro.build/en/guides/upgrade-to/v5/#changed-typescript-configuration](https://docs.astro.build/en/guides/upgrade-to/v5/#changed-typescript-configuration)       |
+| Intellisense env vars TS | Intellisense para variables de entorno en TS    | [https://docs.astro.build/en/guides/environment-variables/#intellisense-for-typescript](https://docs.astro.build/en/guides/environment-variables/#intellisense-for-typescript) |
 
-### collecions
+### Collections
 
-(astroCollections)[https://docs.astro.build/en/guides/content-collections/]
-(zodSchema)[https://zod.dev/json-schema]
-(images)[https://docs.astro.build/en/guides/images/]
+| Recurso             | Descripción                                  | Enlace                                                                                                             |
+| :------------------ | :------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| Content Collections | Sistema de colecciones de contenido en Astro | [https://docs.astro.build/en/guides/content-collections/](https://docs.astro.build/en/guides/content-collections/) |
+| Zod — JSON Schema   | Generar JSON Schema con Zod                  | [https://zod.dev/json-schema](https://zod.dev/json-schema)                                                         |
+| Images guide        | Guía de manejo de imágenes en Astro          | [https://docs.astro.build/en/guides/images/](https://docs.astro.build/en/guides/images/)                           |
 
-### rutas dinamicas
+### Rutas dinámicas
 
-(paginaDinamicas)[https://docs.astro.build/en/reference/errors/get-static-paths-required/]
-(getStaticPaths())[https://docs.astro.build/en/reference/routing-reference/#getstaticpaths]
+| Recurso                     | Descripción                         | Enlace                                                                                                                                             |
+| :-------------------------- | :---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Errores getStaticPaths      | Error cuando faltan rutas estáticas | [https://docs.astro.build/en/reference/errors/get-static-paths-required/](https://docs.astro.build/en/reference/errors/get-static-paths-required/) |
+| getStaticPaths() referencia | Uso de getStaticPaths en Astro      | [https://docs.astro.build/en/reference/routing-reference/#getstaticpaths](https://docs.astro.build/en/reference/routing-reference/#getstaticpaths) |
 
-### deploy
+### Deploy
 
-(netfly)[https://www.netlify.com/]
-(cloudfare)[https://www.cloudflare.com/es-es/]
-(githubOficial)[https://docs.astro.build/en/guides/deploy/github/]
-(renderOficial)[https://docs.astro.build/en/guides/deploy/render/]
-(ejemploGithubDeploy)[https://www.youtube.com/watch?v=v7HyyOnixJ8]
-(ejemploVercelDeploy)[https://www.youtube.com/watch?v=VyoaF6xwSJc]
-(guiasDeployAstroStatic)[https://docs.astro.build/en/guides/deploy/]
-(deployAdaptersServerWebsAstro)[https://docs.astro.build/en/guides/integrations-guide/]
-(astroNetfly)[https://docs.netlify.com/build/frameworks/framework-setup-guides/astro/]
+| Recurso                       | Nota                                     | Enlace                                                                                                                                             |
+| :---------------------------- | :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Netlify                       | Hosting estático y funciones             | [https://www.netlify.com/](https://www.netlify.com/)                                                                                               |
+| Cloudflare                    | CDN y hosting                            | [https://www.cloudflare.com/es-es/](https://www.cloudflare.com/es-es/)                                                                             |
+| Deploy en GitHub              | Guía de deploy en GitHub Pages / Actions | [https://docs.astro.build/en/guides/deploy/github/](https://docs.astro.build/en/guides/deploy/github/)                                             |
+| Deploy en Render              | Guía de deploy en Render                 | [https://docs.astro.build/en/guides/deploy/render/](https://docs.astro.build/en/guides/deploy/render/)                                             |
+| Ejemplo deploy GitHub (video) | Video tutorial                           | [https://www.youtube.com/watch?v=v7HyyOnixJ8](https://www.youtube.com/watch?v=v7HyyOnixJ8)                                                         |
+| Ejemplo deploy Vercel (video) | Video tutorial                           | [https://www.youtube.com/watch?v=VyoaF6xwSJc](https://www.youtube.com/watch?v=VyoaF6xwSJc)                                                         |
+| Guías deploy Astro            | Guía general de deploys                  | [https://docs.astro.build/en/guides/deploy/](https://docs.astro.build/en/guides/deploy/)                                                           |
+| Adapters & Servers            | Información sobre adapters y servidores  | [https://docs.astro.build/en/guides/integrations-guide/](https://docs.astro.build/en/guides/integrations-guide/)                                   |
+| Netlify + Astro guide         | Guía Netlify específica para Astro       | [https://docs.netlify.com/build/frameworks/framework-setup-guides/astro/](https://docs.netlify.com/build/frameworks/framework-setup-guides/astro/) |
 
-### markdown
+### Markdown / MDX
 
-(astroMarkdown)[https://docs.astro.build/en/guides/markdown-content/]
-(astroMDX)[https://docs.astro.build/en/guides/integrations-guide/mdx/]
+| Recurso                | Enlace                    |
+| :--------------------- | :------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Markdown content guide | Uso de Markdown en Astro  | [https://docs.astro.build/en/guides/markdown-content/](https://docs.astro.build/en/guides/markdown-content/)             |
+| MDX integration        | Integración MDX con Astro | [https://docs.astro.build/en/guides/integrations-guide/mdx/](https://docs.astro.build/en/guides/integrations-guide/mdx/) |
 
 ### RSS feed
 
-(endpoints)[https://docs.astro.build/en/guides/endpoints/#request]
-(rss)[https://docs.astro.build/en/recipes/rss/]
-(estiloXML)[https://github.com/genmon/aboutfeeds/blob/main/tools/pretty-feed-v3.xsl]
-(addStyles)[https://docs.astro.build/en/recipes/rss/#adding-a-stylesheet]
+| Recurso               | Nota                           | Enlace                                                                                                                                             |
+| :-------------------- | :----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Endpoints / Request   | Cómo usar endpoints para feeds | [https://docs.astro.build/en/guides/endpoints/#request](https://docs.astro.build/en/guides/endpoints/#request)                                     |
+| Recipe: RSS           | Ejemplo para generar RSS       | [https://docs.astro.build/en/recipes/rss/](https://docs.astro.build/en/recipes/rss/)                                                               |
+| Pretty-feed XSL       | Estilos XML para feeds         | [https://github.com/genmon/aboutfeeds/blob/main/tools/pretty-feed-v3.xsl](https://github.com/genmon/aboutfeeds/blob/main/tools/pretty-feed-v3.xsl) |
+| Add stylesheet to RSS | Añadir stylesheet a RSS        | [https://docs.astro.build/en/recipes/rss/#adding-a-stylesheet](https://docs.astro.build/en/recipes/rss/#adding-a-stylesheet)                       |
 
-### astroDB
+### Astro DB
 
-(guiaAstroDB)[https://docs.astro.build/en/guides/astro-db/]
-(ejemploAstroDB)[https://dotmd.io/blog/explorando-astrodb/]
-(enumAstroDB)[https://docs.astro.build/en/guides/integrations-guide/db/#table-configuration-reference]
-(enumIssuesAstroDB)[https://github.com/withastro/roadmap/discussions/980]
-(enumSuportAstroDB)[https://astro.build/blog/astro-5130/#enum-support-in-astro-db-tables]
-(bcryptjs)[https://www.npmjs.com/package/bcryptjs]
+| Recurso                      | Descripción                     | Enlace                                                                                                                                                                             |
+| :--------------------------- | :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Astro DB guide               | Guía de Astro DB                | [https://docs.astro.build/en/guides/astro-db/](https://docs.astro.build/en/guides/astro-db/)                                                                                       |
+| Ejemplo AstroDB              | Artículo explorando AstroDB     | [https://dotmd.io/blog/explorando-astrodb/](https://dotmd.io/blog/explorando-astrodb/)                                                                                             |
+| Table config / Enums         | Configuración de tablas y enums | [https://docs.astro.build/en/guides/integrations-guide/db/#table-configuration-reference](https://docs.astro.build/en/guides/integrations-guide/db/#table-configuration-reference) |
+| Issues / roadmap sobre enums | Discusión en roadmap            | [https://github.com/withastro/roadmap/discussions/980](https://github.com/withastro/roadmap/discussions/980)                                                                       |
+| Enum support blog            | Blog sobre soporte de enums     | [https://astro.build/blog/astro-5130/#enum-support-in-astro-db-tables](https://astro.build/blog/astro-5130/#enum-support-in-astro-db-tables)                                       |
+| bcryptjs (npm)               | Librería bcrypt en JS           | [https://www.npmjs.com/package/bcryptjs](https://www.npmjs.com/package/bcryptjs)                                                                                                   |
 
-### authjs
+### Auth (AuthJS / BetterAuth)
 
-(authJSAstro)[https://docs.astro.build/en/guides/authentication/#authjs]
-(githubAuthJSAstro)[https://github.com/eapepe0/Astro-AuthJS-AstroDB-Store]
-(authJS)[https://authjs.dev/guides]
-(betterAuth)[https://www.better-auth.com/docs/introduction]
-(astroBetterAuth)[https://docs.astro.build/en/guides/authentication/#better-auth]
+| Recurso                           | Nota                            | Enlace                                                                                                                           |
+| :-------------------------------- | :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------- |
+| AuthJS (Astro)                    | Integración AuthJS con Astro    | [https://docs.astro.build/en/guides/authentication/#authjs](https://docs.astro.build/en/guides/authentication/#authjs)           |
+| Ejemplo GitHub (AuthJS + AstroDB) | Repo ejemplo                    | [https://github.com/eapepe0/Astro-AuthJS-AstroDB-Store](https://github.com/eapepe0/Astro-AuthJS-AstroDB-Store)                   |
+| AuthJS docs                       | Documentación oficial de AuthJS | [https://authjs.dev/guides](https://authjs.dev/guides)                                                                           |
+| BetterAuth                        | Alternativa/servicio de auth    | [https://www.better-auth.com/docs/introduction](https://www.better-auth.com/docs/introduction)                                   |
+| BetterAuth + Astro                | Referencia en docs de Astro     | [https://docs.astro.build/en/guides/authentication/#better-auth](https://docs.astro.build/en/guides/authentication/#better-auth) |
 
-## plantillas
+## Plantillas
 
-(basica)[https://github.com/hkbertoson/github-pages]
-(colors)[https://delucis.github.io/expressive-code-color-chips/]
-(startlight)[https://delucis.github.io/starlight-theme-flexoki/]
-(starligh-markdown)[https://delucis.github.io/starlight-markdown-blocks/]
-(temas)[https://astro.build/themes/1/]
-(astro-build_Theme)[https://astro.build/themes/1/?search=&price%5B%5D=free]
+| Plantilla                   | Descripción                     | Enlace                                                                                                           |
+| :-------------------------- | :------------------------------ | :--------------------------------------------------------------------------------------------------------------- |
+| Básica (GitHub Pages)       | Plantilla simple para páginas   | [https://github.com/hkbertoson/github-pages](https://github.com/hkbertoson/github-pages)                         |
+| Expressive Code Color Chips | Paleta de color para snippets   | [https://delucis.github.io/expressive-code-color-chips/](https://delucis.github.io/expressive-code-color-chips/) |
+| Starlight theme             | Tema Starlight para Astro       | [https://delucis.github.io/starlight-theme-flexoki/](https://delucis.github.io/starlight-theme-flexoki/)         |
+| Starlight markdown blocks   | Bloques markdown para Starlight | [https://delucis.github.io/starlight-markdown-blocks/](https://delucis.github.io/starlight-markdown-blocks/)     |
+| Temas Astro (list)          | Listado de temas para Astro     | [https://astro.build/themes/1/](https://astro.build/themes/1/)                                                   |
+| Filtro temas gratis         | Temas filtrados por gratis      | [https://astro.build/themes/1/?search=&price%5B%5D=free](https://astro.build/themes/1/?search=&price%5B%5D=free) |
 
-## externos
+## Externos
 
-### externos iconos
+### Iconos
 
-(astroIcon)[https://www.astroicon.dev/]
-(iconify)[https://icon-sets.iconify.design/]
+| Recurso   | Descripción                | Enlace                                                                 |
+| :-------- | :------------------------- | :--------------------------------------------------------------------- |
+| AstroIcon | Iconos para Astro          | [https://www.astroicon.dev/](https://www.astroicon.dev/)               |
+| Iconify   | Colección amplia de iconos | [https://icon-sets.iconify.design/](https://icon-sets.iconify.design/) |
 
-### externas recursos UI
+### Recursos UI
 
-(templates_404)[https://dev.to/stackfindover/35-html-404-page-templates-5bge]
-(componentTailwindsAstro)[https://starwind.dev/]
-(tailwindAnimation)[https://www.npmjs.com/package/tailwind-animate]
-(escogerFuente)[https://fontpair.co/]
-(sitch)[https://stitch.withgoogle.com/]
-(componentsTailwindShadcnMotion)[https://github.com/kokonut-labs/kokonutui]
+| Recurso                     | Descripción                            | Enlace                                                                                                                       |
+| :-------------------------- | :------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| Templates 404               | Plantillas 404 HTML                    | [https://dev.to/stackfindover/35-html-404-page-templates-5bge](https://dev.to/stackfindover/35-html-404-page-templates-5bge) |
+| Starwind (Tailwind + Astro) | Componentes y recursos UI              | [https://starwind.dev/](https://starwind.dev/)                                                                               |
+| tailwind-animate            | Animaciones para Tailwind              | [https://www.npmjs.com/package/tailwind-animate](https://www.npmjs.com/package/tailwind-animate)                             |
+| FontPair                    | Herramienta para elegir fuentes        | [https://fontpair.co/](https://fontpair.co/)                                                                                 |
+| Stitch (Google)             | Prototipado experimental IA            | [https://stitch.withgoogle.com/](https://stitch.withgoogle.com/)                                                             |
+| KokonutUI                   | Componentes Tailwind / Shadcn / Motion | [https://github.com/kokonut-labs/kokonutui](https://github.com/kokonut-labs/kokonutui)                                       |
+| HTMLRev recursos            | Gran colección de recursos gratuitos   | [https://htmlrev.com/](https://htmlrev.com/)                                                                                 |
 
-### externas templates UI
+### Templates UI (más)
 
-(navBar)[https://www.creative-tim.com/twcomponents/component/simple-navbar-3]
-(grid-blog-page)[https://www.creative-tim.com/twcomponents/component/grid-blog-page]
-(paginaAuthor)[https://gist.github.com/Klerith/e754477e54c7393820c066f95f91f9ef]
-(profileCardTemplate)[https://www.creative-tim.com/twcomponents/component/creating-a-simple-profile-card-with-tailwind-css]
-(login)[https://www.creative-tim.com/twcomponents/component/login-form-ui-by-tailwindcss]
-(nav-bar)[https://www.creative-tim.com/twcomponents/component/navbar-component]
-(creditCard)[https://www.creative-tim.com/twcomponents/component/profile-card-13]
-(avatarAstro)[https://gist.github.com/Klerith/f86dc9e046afb6ade1c4626ef73bcda4]
+| Recurso               | Enlace                                                                                                                                                                                                       |
+| :-------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Simple Navbar         | [https://www.creative-tim.com/twcomponents/component/simple-navbar-3](https://www.creative-tim.com/twcomponents/component/simple-navbar-3)                                                                   |
+| Grid Blog Page        | [https://www.creative-tim.com/twcomponents/component/grid-blog-page](https://www.creative-tim.com/twcomponents/component/grid-blog-page)                                                                     |
+| Página Author (Gist)  | [https://gist.github.com/Klerith/e754477e54c7393820c066f95f91f9ef](https://gist.github.com/Klerith/e754477e54c7393820c066f95f91f9ef)                                                                         |
+| Profile Card Template | [https://www.creative-tim.com/twcomponents/component/creating-a-simple-profile-card-with-tailwind-css](https://www.creative-tim.com/twcomponents/component/creating-a-simple-profile-card-with-tailwind-css) |
+| Login Form UI         | [https://www.creative-tim.com/twcomponents/component/login-form-ui-by-tailwindcss](https://www.creative-tim.com/twcomponents/component/login-form-ui-by-tailwindcss)                                         |
+| Navbar component      | [https://www.creative-tim.com/twcomponents/component/navbar-component](https://www.creative-tim.com/twcomponents/component/navbar-component)                                                                 |
+| Profile Card 13       | [https://www.creative-tim.com/twcomponents/component/profile-card-13](https://www.creative-tim.com/twcomponents/component/profile-card-13)                                                                   |
+| Avatar Astro (Gist)   | [https://gist.github.com/Klerith/f86dc9e046afb6ade1c4626ef73bcda4](https://gist.github.com/Klerith/f86dc9e046afb6ade1c4626ef73bcda4)                                                                         |
 
-### externas varias
+### Otras utilidades
 
-(confetti)[https://www.npmjs.com/package/canvas-confetti]
-(sweetAlert2 Swal.)[https://www.npmjs.com/package/sweetalert2]
+| Recurso            | Enlace                                                                                         |
+| :----------------- | :--------------------------------------------------------------------------------------------- |
+| canvas-confetti    | [https://www.npmjs.com/package/canvas-confetti](https://www.npmjs.com/package/canvas-confetti) |
+| SweetAlert2 (Swal) | [https://www.npmjs.com/package/sweetalert2](https://www.npmjs.com/package/sweetalert2)         |
 
-### externos frameworks islas
+### Frameworks «islas»
 
-(solid)[https://www.solidjs.com/]
-(conocimientosVue)[https://es.vuejs.org/v2/guide/components]
+| Recurso             | Enlace                                                                               |
+| :------------------ | :----------------------------------------------------------------------------------- |
+| SolidJS             | [https://www.solidjs.com/](https://www.solidjs.com/)                                 |
+| Vue (components v2) | [https://es.vuejs.org/v2/guide/components](https://es.vuejs.org/v2/guide/components) |
 
-### externos apis
+### APIs públicas y utilidades
 
-(apiSimpson)[https://thesimpsonsapi.com/]
-(apiPokemon)[https://pokeapi.co/]
-(rickMortyApi)[https://rickandmortyapi.com/]
-(dragonBallApi)[https://web.dragonball-api.com/]
-(openMeteoWeb)[https://open-meteo.com/]
-(openMeteoGithub)[https://github.com/open-meteo/open-data]
-(webListadoApis)[https://publicapis.io/]
-(githubListadoApis)[https://github.com/public-apis/public-apis]
-(fakeShop)[https://fakestoreapi.com/]
-(githubFakeStore)[https://github.com/keikaavousi/fake-store-api]
-(imagenesApi1)[https://www.publicdomainpictures.net/en/]
-(imagenesPerroApi)[https://dog.ceo/api/breeds/image/random]
-(imagenesCatApi)[https://api.thecatapi.com/v1/images/search]
+| Recurso              | Descripción                       | Enlace                                                                                         |
+| :------------------- | :-------------------------------- | :--------------------------------------------------------------------------------------------- |
+| The Simpsons API     | Datos de Los Simpsons             | [https://thesimpsonsapi.com/](https://thesimpsonsapi.com/)                                     |
+| PokéAPI              | API RESTful de Pokémon            | [https://pokeapi.co/](https://pokeapi.co/)                                                     |
+| Rick and Morty API   | API de la serie Rick & Morty      | [https://rickandmortyapi.com/](https://rickandmortyapi.com/)                                   |
+| Dragon Ball API      | API del universo Dragon Ball      | [https://web.dragonball-api.com/](https://web.dragonball-api.com/)                             |
+| Open-Meteo           | API meteorológica open-source     | [https://open-meteo.com/](https://open-meteo.com/)                                             |
+| Open-Meteo (GitHub)  | Datos open en GitHub              | [https://github.com/open-meteo/open-data](https://github.com/open-meteo/open-data)             |
+| Public APIs (web)    | Listado de APIs públicas          | [https://publicapis.io/](https://publicapis.io/)                                               |
+| Public APIs (GitHub) | Repositorio con muchas APIs       | [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)       |
+| Fake Store API       | API de ejemplo para e-commerce    | [https://fakestoreapi.com/](https://fakestoreapi.com/)                                         |
+| Fake Store (GitHub)  | Código del Fake Store API         | [https://github.com/keikaavousi/fake-store-api](https://github.com/keikaavousi/fake-store-api) |
+| PublicDomainPictures | Banco de imágenes dominio público | [https://www.publicdomainpictures.net/en/](https://www.publicdomainpictures.net/en/)           |
+| Dog CEO (dogs)       | Imágenes aleatorias de perros     | [https://dog.ceo/api/breeds/image/random](https://dog.ceo/api/breeds/image/random)             |
+| The Cat API          | Imágenes de gatos                 | [https://api.thecatapi.com/v1/images/search](https://api.thecatapi.com/v1/images/search)       |
 
-#### tmb movieApi
+#### Movie APIs
 
-()[https://www.themoviedb.org/]
-()[https://developer.themoviedb.org/docs/getting-started]
+| Recurso      | Enlace                                                                                                         |
+| :----------- | :------------------------------------------------------------------------------------------------------------- |
+| The Movie DB | [https://www.themoviedb.org/](https://www.themoviedb.org/)                                                     |
+| TMDB Docs    | [https://developer.themoviedb.org/docs/getting-started](https://developer.themoviedb.org/docs/getting-started) |
 
-### themes astro
+### Themes / Herramientas
 
-(athosfere)[https://astro.build/themes/details/astrosphere/]
-(checkUpdates)[https://www.npmjs.com/package/npm-check-updates]
+| Recurso           | Enlace                                                                                             |
+| :---------------- | :------------------------------------------------------------------------------------------------- |
+| Astrosphere theme | [https://astro.build/themes/details/astrosphere/](https://astro.build/themes/details/astrosphere/) |
+| npm-check-updates | [https://www.npmjs.com/package/npm-check-updates](https://www.npmjs.com/package/npm-check-updates) |
 
-### varios
+### Cursos y aprendizaje
 
-(herramietasProgramacion)[https://it-tools.tech/]
-(metabusacador de cursos cursos)[https://www.classcentral.com/]
-(aprenderLenguajeRapido)[https://learnxinyminutes.com/]
-(cursosCienciasdatos - phyton,sql)[https://www.kaggle.com/learn]
-(mejorFrameworksJS2025)[https://risingstars.js.org/2025/es]
-(crearVPNpropio)[https://www.israelcasado.net/createVps/]
-(alternativasVercel)[https://punits.dev/blog/vercel-hosting-when-to-use-and-alternatives/]
-(nextCommonErrors)[https://graphite.com][https://www.youtube.com/watch?v=UFQFvaBtQg0]
+| Recurso              | Enlace                                                 |
+| :------------------- | :----------------------------------------------------- | -------------------------------------------------------------- |
+| GitHub Learn         | [https://learn.github.com/](https://learn.github.com/) |
+| ClassCentral         | Buscador de cursos                                     | [https://www.classcentral.com/](https://www.classcentral.com/) |
+| Learn X in Y minutes | Chuletas rápidas                                       | [https://learnxinyminutes.com/](https://learnxinyminutes.com/) |
+| Kaggle Learn         | Cursos prácticos de datos                              | [https://www.kaggle.com/learn](https://www.kaggle.com/learn)   |
+| DevTalles            | Cursos en español                                      | [https://cursos.devtalles.com/](https://cursos.devtalles.com/) |
+
+### Varios
+
+| Recurso                       | Enlace                                       |
+| :---------------------------- | :------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| IT Tools                      | Herramientas útiles para devs                | [https://it-tools.tech/](https://it-tools.tech/)                                                                                             |
+| Rising Stars JS 2025          | Ranking frameworks JS                        | [https://risingstars.js.org/2025/es](https://risingstars.js.org/2025/es)                                                                     |
+| Crear VPS / VPN               | Guía para crear VPS propio                   | [https://www.israelcasado.net/createVps/](https://www.israelcasado.net/createVps/)                                                           |
+| Alternativas a Vercel         | Artículo sobre hosting                       | [https://punits.dev/blog/vercel-hosting-when-to-use-and-alternatives/](https://punits.dev/blog/vercel-hosting-when-to-use-and-alternatives/) |
+| Next common errors (recursos) | [https://graphite.com](https://graphite.com) | [https://www.youtube.com/watch?v=UFQFvaBtQg0](https://www.youtube.com/watch?v=UFQFvaBtQg0)                                                   |
 
 ## Recursos Esenciales para Desarrolladores 🚀
 
@@ -169,11 +215,13 @@ Una colección curada de enlaces y herramientas para agilizar tu flujo de trabaj
 
 ---
 
-## markdown
+## Markdown rapido
 
-(guiaMarkdown)[https://www.markdownguide.org/basic-syntax/]
-(chuletaMarkdown)[https://josema966.gitlab.io/chuleta-markdown.html]
-(chuletaEmoji)[https://www.webfx.com/tools/emoji-cheat-sheet/]
+| Recurso           | Enlace                  |
+| :---------------- | :---------------------- | ------------------------------------------------------------------------------------------------------ |
+| Markdown Guide    | Guía básica de Markdown | [https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)             |
+| Chuleta Markdown  | Chuleta rápida          | [https://josema966.gitlab.io/chuleta-markdown.html](https://josema966.gitlab.io/chuleta-markdown.html) |
+| Emoji Cheat Sheet | Lista de emojis         | [https://www.webfx.com/tools/emoji-cheat-sheet/](https://www.webfx.com/tools/emoji-cheat-sheet/)       |
 
 ### 🤖 UI con IA
 
